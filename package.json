@@ -1,0 +1,29 @@
+{
+  "name": "dust-transform",
+  "version": "1.0.0",
+  "description": "Project to explore Dust Render",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomagnacerta/dust-transform.git"
+  },
+  "keywords": [
+    "dust",
+    "render",
+    "json",
+    "transform"
+  ],
+  "author": "Hugo Gonzalez <hugo@magnacerta.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomagnacerta/dust-transform/issues"
+  },
+  "homepage": "https://github.com/hugomagnacerta/dust-transform#readme",
+  "dependencies": {
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5"
+  }
+}
