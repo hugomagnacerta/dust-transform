@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Skip local generate files
-./src/resources/results/*
+/src/resources/results/*
