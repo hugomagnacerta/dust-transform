@@ -1,0 +1,28 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.opencerta.org/fhir/202009"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "FHIRCredential"
+    ],
+    "id": "{@toString string=credential_id/}",
+    "issuer": "{@toString string=issuer_ref/}",
+    "issuanceDate": "{@toDate date=issuance_date/}",
+    "expirationDate": "{@toDate date=expiration_date/}",
+    "credentialSubject": {
+      "type": "FHIRCredential",
+      "id": "{@toString string=subject.id/}",
+      "givenName": "{@toString string=subject.givenName/}",
+      "additionalName": "{@toString string=subject.additionalName/}",
+      "familyName": "{@toString string=subject.familyName /}",
+      "gender": "{@toString string=subject.gender/}",
+      "honorificPrefix": "{@toString string=subject.honorificPrefix/}",
+      "honorificSuffix": "{@toString string=subject.honorificSuffix/}",
+      "photograph": "{@toString string=subject.photograph/}",
+      "fhirVersion": "{@toString string=fhir.version/}",
+      "fhirSource": {@toString string=fhir.payload /}
+  }
+}
+  
